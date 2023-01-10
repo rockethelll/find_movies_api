@@ -1,0 +1,174 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  margin: 6px;
+  padding: 6px;
+}
+
+header a {
+  text-decoration: none;
+  padding-right: 15px;
+  font-size: 13px;
+  color: #000;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+.points {
+  height: 16px;
+  padding: 0 7px;
+}
+
+.connect {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+.connect:hover {
+  box-shadow: 0 0 0 4px #ebebec;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+}
+
+main img {
+  height: 92px;
+  width: 272px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  width: 38%;
+  height: 45px;
+  border: 1px solid #e2e2e2;
+  border-radius: 50px;
+  margin-top: 4vh;
+}
+
+.input-group img {
+  margin: 0 1em;
+}
+
+.input-group input {
+  margin: 0 auto;
+  border: 1px solid #fff;
+
+  outline: none;
+  width: 85%;
+}
+
+.input-group:hover,
+.input-group:focus {
+  box-shadow: 0 0 3px 3px #ebebec;
+}
+
+.input-group img {
+  width: 24px;
+  height: 24px;
+}
+
+.appareil {
+  cursor: pointer;
+}
+
+main .loupe {
+  height: 20px;
+  width: 20px;
+}
+.buttons-group {
+  margin-top: 30px;
+}
+
+.button {
+  background-color: #f8f9fa;
+  width: 140px;
+  height: 36px;
+  border: none;
+  border-radius: 5px;
+  line-height: 27px;
+  margin: 0 5px;
+  font-size: 14px;
+}
+
+button:hover {
+  border: 1px solid #cbd5de;
+  cursor: pointer;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #f2f2f2;
+  width: 100vw;
+  color: #70757a;
+  font-size: 14px;
+}
+
+.france {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  height: 47px;
+  border-bottom: 1px solid #cbd5de;
+}
+
+.objectif {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+.objectif img {
+  width: 12px;
+  height: 14px;
+  margin-right: 6px;
+}
+.contact {
+  height: 94px;
+  width: 100%;
+}
+.contact a {
+  text-decoration: none;
+  color: #70757a;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  padding-top: 30px;
+  margin: 0 15px;
+}
+.links a {
+  margin: 0 15px;
+}
+.left {
+  padding-right: 10px;
+}
