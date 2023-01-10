@@ -111,6 +111,10 @@ main .loupe {
   font-size: 14px;
 }
 
+button:hover {
+  border: 1px solid #cbd5de;
+}
+
 footer {
   position: absolute;
   bottom: 0;
