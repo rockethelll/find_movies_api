@@ -7,7 +7,7 @@ const modal = document.getElementById('myModal')
 let movies = []
 
 const fetchMovies = async (search) => {
-  await fetch(`http://www.omdbapi.com/?s=${search}&apikey=f27665de`)
+  await fetch(`http://www.omdbapi.com/?s=${search}&apikey=[YOUR_API_KEY]`)
     .then((response) => response.json())
     .then((data) => (movies = data))
 }
@@ -40,7 +40,7 @@ const moviesDisplay = () => {
 let searchModal = []
 
 const fetchModal = async (imdbID) => {
-  let url = `http://www.omdbapi.com/?i=${imdbID}&apikey=f27665de`
+  let url = `http://www.omdbapi.com/?i=${imdbID}&apikey=[YOUR_API_KEY]`
   await fetch(url)
     .then((res) => res.json())
     .then((data) => {
